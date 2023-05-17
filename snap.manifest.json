@@ -1,0 +1,28 @@
+{
+  "version": "0.0.1",
+  "description": "A MetaMask Test Snap that uses the WebAssembly endowment",
+  "proposedName": "MetaMask WebAssembly Test Snap",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MetaMask/test-snaps.git"
+  },
+  "source": {
+    "shasum": "oid93wZc+gTjolmziKiClPQwI7jI1rSYpeyKVF3zRSs=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "iconPath": "images/icon.svg",
+        "packageName": "test-snap-wasm-pack",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialPermissions": {
+    "endowment:rpc": {
+      "dapps": true,
+      "snaps": true
+    },
+    "endowment:webassembly": {}
+  },
+  "manifestVersion": "0.1"
+}
